@@ -1,0 +1,9 @@
+#!/bin/bash
+
+./q1test.sh
+./q2test.sh
+./q3test.sh
+./q4test.sh
+./q5test.sh
+./q6test.sh
+./q7test.sh

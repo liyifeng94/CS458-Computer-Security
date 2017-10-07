@@ -1,0 +1,66 @@
+0xffbfdb44 : argc 4 bytes
+0xffbfdb48 : argv 4 bytes
+5 bytes
+0xffbfdb3c : 
+0xffbfdb38 : EBP 4 bytes
+0xffbfdb34 : c 4 bytes
+0xffbfdb30 : res 4 bytes
+0xffbfd90c : args.write 1 bytes
+0xffbfd90d : args.version 1 bytes
+0xffbfd90e : args.type 1 bytes
+0xffbfd90f : args.salt 32 bytes
+0xffbfd92f : args.filename 512 bytes
+0xffbfd89c : long_options 112 bytes
+
+--------------------------------------
+0xffbfdb4c
+-4   : argv
+0xffbfdb48
+-4   : argc
+0xffbfdb44
+-4   : return
+0xffbfdb3c
+-4   : ebp
+0xffbfdb38
+-4   : c
+0xffbfdb34
+-4   : res
+0xffbfdb30
+-1   : ???
+0xffbfdb2f
+-512 : args.filename 
+0xffbfd92f
+-32  : args.salt
+0xffbfd90f
+-1   : args.type
+0xffbfd90e
+-1   : args.version
+0xffbfd90d
+-1   : args.write
+0xffbfd90c 
+-112 : long_options
+0xffbfd89c - long_options
+--------------------------------------
+0xffbfdb38
+-553
+0xffbfd90f
+--------------------------------------
+0xffbfdd68
+-553
+0xffbfdb3f
+--------------------------------------
+0xffbfdd78
+-553
+0xffbfdb4f
+--------------------------------------
+
+0xffbfdc7e
+
+--------------------------------------
+shellcode: ff bf dd 78
+
+0000220: ff78 ddbf
+0000224: ff78 ddbf
+0000228: ff78 ddbf
+000022C: ff
+000022D: 78 dd bf ff

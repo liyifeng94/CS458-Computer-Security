@@ -1,0 +1,9 @@
+-4   : eip
+0xffbfd9dc
+-4   : ebp
+0xffbfd9d8
+-640 : buffer
+0xffbfd758
+
+
+0xffbfd9dc

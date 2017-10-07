@@ -1,0 +1,17 @@
+Usage: pwgen [options]
+Randomly generates a password, optionally writes it to /etc/shadow
+
+Options:
+-s, --salt <salt>  Specify custom salt, default is random
+-e, --seed [file]  Specify custom seed from file, default is from stdin
+-t, --type <type>  Specify different encryption method
+-w, --write        Update the /etc/shadow
+-v, --version      Show version
+-h, --help         Show this usage message
+
+Encryption types:
+  0 - DES (default)
+  1 - MD5
+  2 - Blowfish
+  3 - SHA-256
+  4 - SHA-512

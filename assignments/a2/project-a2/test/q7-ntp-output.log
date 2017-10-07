@@ -1,0 +1,3 @@
+[Spoofed IP address]: src:100.100.111.115, dst:64.250.229.100
+[NTP DDoS]: vic:100.100.111.115, srv:64.250.229.100
+Analyzed 3 packets, 162 bytes
